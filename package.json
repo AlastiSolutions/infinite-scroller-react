@@ -1,0 +1,27 @@
+{
+  "name": "infinite-scroller-react",
+  "version": "0.0.1",
+  "description": "A React component for implementing infinite scrolling functionality",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "infinite-scroll",
+    "typescript",
+    "component"
+  ],
+  "author": "Kourosh Alati <coding@kouroshalasti.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
