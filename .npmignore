@@ -1,0 +1,35 @@
+# Source
+src/
+
+# Development
+example/
+.gitignore
+tsconfig.json
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+__tests__/
+*.test.*
+*.spec.*
+
+# Build process
+.github/
+.travis.yml
+.gitlab-ci.yml
+.circleci/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Misc
+.DS_Store
+.env*
+*.tgz
