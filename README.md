@@ -1,4 +1,4 @@
-# React Infinite Scroll Component
+# React Infinite Scroller Component
 
 A highly customizable, TypeScript-based infinite scroll component for React applications with pull-to-refresh functionality.
 
@@ -16,9 +16,9 @@ A highly customizable, TypeScript-based infinite scroll component for React appl
 ## Installation
 
 ```bash
-npm install react-infinity-scroll
+npm install infinite-scroller-react
 # or
-yarn add react-infinity-scroll
+yarn add infinite-scroller-react
 ```
 
 ## Basic Usage
@@ -72,7 +72,7 @@ function MyComponent() {
   refreshComponent={<div>Pull to refresh...</div>}
   onError={handleError}
 >
-  {/* Your content */}
+  {/* Your children content */}
 </InfiniteScroll>
 ```
 
@@ -145,15 +145,6 @@ function MyComponent() {
      setItems(freshData);
    };
    ```
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- iOS Safari
-- Chrome for Android
 
 ## Contributing
 
