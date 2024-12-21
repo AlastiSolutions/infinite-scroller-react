@@ -5,16 +5,30 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alastisolutions/infinite-scroller-react.git"
   },
   "keywords": [
     "react",
     "infinite-scroll",
     "typescript",
-    "component"
+    "component",
+    "pull-to-refresh",
+    "scroll",
+    "infinite",
+    "loading",
+    "pagination"
   ],
-  "author": "Kourosh Alati <coding@kouroshalasti.com>",
+  "author": "AlastiSolutions <mail@alastisolutions.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alastisolutions/infinite-scroller-react/issues"
+  },
+  "homepage": "https://github.com/alastisolutions/infinite-scroller-react#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -23,5 +37,13 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
