@@ -24,7 +24,7 @@ yarn add react-infinity-scroll
 ## Basic Usage
 
 ```tsx
-import { InfiniteScroll } from 'react-infinity-scroll';
+import { InfiniteScroll } from 'infinite-scroller-react';
 
 function MyComponent() {
   const [items, setItems] = useState([]);
